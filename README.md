@@ -17,6 +17,8 @@ The project unfolds in two key sections:
 1) Exploratory data analysis of the EEG traces to understand the available data.
 2) Time-frequency analysis using time-frequency representations (TFRs) for both conditions.
 
-The Fast Fourier Transform (FFT) is used as part of the time-frequency analysis. FFT is a powerful tool that allows us to decompose a signal into its constituent frequencies. In this project, FFT is used to convert the EEG time-series data from the time domain to the frequency domain, making it possible to analyze the power of the EEG signal across different frequency bands.
+Time-resolved frequency analysis involves dividing the EEG signal into short, overlapping segments, and then applying a Fourier transform or similar techniques to each segment to determine its frequency content. By doing so, one can track changes in the power or amplitude of specific frequency bands over time, allowing us to identify transient patterns of brain activity and understand how the brain's electrical dynamics evolve during different tasks.
 
-This analysis focuses on the relative differences within each participant to offset any uncontrolled between-subject effects that might occur due to individual variations. 
+The Fast Fourier Transform (FFT) is a powerful tool that allows us to decompose a signal into its constituent frequencies. In this project, FFT is used to convert the EEG time-series data from the time domain to the frequency domain, making it possible to analyze the power of the EEG signal across different frequency bands. 
+
+This analysis focuses on the relative differences within each participant to offset any uncontrolled between-subject effects that might occur due to individual variations. The results of this analysis can potentially help identify uniform shifts in EEG power that correspond with the initiation of a crucial item in the sentences, essentially creating a neural fingerprint for this occurrence. This data can then be used as training input for machine learning or deep learning models aimed at understanding and predicting task conditions.
