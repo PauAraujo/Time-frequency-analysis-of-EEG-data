@@ -1,5 +1,5 @@
 ## Time-resolved Frequency Analysis of EEG Traces
-This repository contains the code and data for a project that performed a time-resolved frequency analysis on EEG traces. The objective was to identify spectral features and shifts in EEG power across certain frequency bands, specifically the low gamma band (30-60 Hz), in response to linguistic stimuli.
+This project involves a time-resolved frequency analysis on EEG traces. The objective was to identify spectral features and shifts in EEG power across certain frequency bands, specifically the low gamma band (30-60 Hz), in response to linguistic stimuli.
 
 ## Dataset
 The data used in this project is a partial analysis of the RITA dataset, published by [Roncaglia-Denissen et al](https://journals.sagepub.com/doi/10.1177/0267658314554497) in 2015, featuring EEG traces from Turkish individuals in the early stages of learning German. The EEG data were collected using an electrode cap with 65 electrodes in the 10-20 system at a sampling rate of 500 Hz.
